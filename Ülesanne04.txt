@@ -1,0 +1,4 @@
+﻿Get-ChildItem C:\Windows\Temp
+Get-ChildItem -Recurse *.LOG
+Get-ChildItem | Sort-Object -Descending | Select-Object -first 3
+ 
